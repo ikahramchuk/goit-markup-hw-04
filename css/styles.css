@@ -492,3 +492,43 @@ h2 {
 
 }
 
+
+/* --------------------П О С Т О Я Н Н Ы Е  К Л И Е Н Т Ы ----------------------*/
+
+.section-list{
+  display: flex;
+}
+.section-list .item{
+  
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+}
+.client-position{
+
+  width: 170px;
+  height: 92px;
+
+}
+
+
+.section-list .icon:not(:last-child){
+  margin-right: 30px;
+}
+
+.icon-clients{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  fill: #AFB1B8;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-clients:hover{
+  fill: #2196f3;
+  border-color: #2196f3;
+}
