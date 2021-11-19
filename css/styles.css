@@ -11,6 +11,11 @@
 }
 
 body {
+  
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
   font-family: Roboto, sans-serif;
   color: var(--title-text-color);
   background-color: #ffffff;
@@ -73,8 +78,9 @@ h2 {
 }
 
 .auth {
-  display: flex;
+  
   justify-content: center;
+  
 
   margin-left: auto;
 
@@ -127,7 +133,9 @@ h2 {
 }
 
 .link {
-    
+  display: flex;  
+  align-items: center;
+
   text-decoration: none;
 
   font-weight: 500;
@@ -192,9 +200,14 @@ h2 {
 
 /* ---------- business slogan Э Ф Ф Е К Т И В Н Ы Е   Р Е Ш Е Н И Я ------------ */
 .section-business {
-  background: #2f303a;
+  max-width: 1600px;
+  height: 600px;
+
+  background color: #2f303a;
   text-align: center;
   padding: 200px 0;
+
+  background-position: center;
 
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/img101.jpg');
   background-repeat: no-repeat;
@@ -416,12 +429,14 @@ h2 {
 .main-services {
   display: flex;
   flex-wrap: wrap;
-  
+    
   margin top:  -34px;
   margin left: -30px;
 }
 
 .flex-element {
+  outline: none;
+
   margin-right: 30px;
   margin-bottom: 30px;
 
@@ -429,6 +444,9 @@ h2 {
 
 }
 
+.filther-flex{
+  text-decoration: none;
+}
 .flex-element:nth-child(3n) {
   margin-right: 0;
 }
@@ -437,12 +455,15 @@ h2 {
   margin-bottom: 0;
 }
 
-.flex-element:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
+.filther-element{
+  display: block;
 }
 
-
+.filther-element:hover,
+.filther-element:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  
+}
 
 .element-services{
     
@@ -467,6 +488,7 @@ h2 {
 .services {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--primary-text-color);
 
 }
 
