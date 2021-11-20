@@ -497,15 +497,14 @@ h2 {
 
 .section-list{
   display: flex;
+  
 }
 .section-list .item{
   
   display: flex;
-  border-radius: 4px;
-  border: 1px solid #AFB1B8;
   justify-content: center;
   align-items: center;
-  padding: 16px 32px;
+  
 }
 .client-position{
 
@@ -514,6 +513,9 @@ h2 {
 
 }
 
+.icon{
+  padding: 0;
+}
 
 .section-list .icon:not(:last-child){
   margin-right: 30px;
@@ -521,6 +523,8 @@ h2 {
 
 .icon-clients{
   display: flex;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
   width: 100%;
   height: 100%;
   fill: #AFB1B8;
