@@ -436,15 +436,18 @@ h2 {
 .contact {
   display: block;
 }
-
+.box{
+  display: flex;
+  align-items: baseline;
+}
 
 .footer-social{
-  display: inline-block;
+  
   margin-left: 70px;
 }
 
 .footer-soc{
-  display: inline-block;
+  
     
   margin: 0;
   
