@@ -261,9 +261,25 @@ h2 {
   margin-right: 0;
 }
 
+.advantage-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 4px;
+  
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #F5F4FA;
+  
+}
+  
+
+
 .advantage {
   color: var(--primary-text-color);
-
+  
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -279,7 +295,7 @@ h2 {
 
 .advantage-title {
   color: var(--primary-text-color);
-
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -297,7 +313,27 @@ h2 {
   margin-top: -30px;
   margin-left: -30px;
 
+}
+
+.comand-link{
+  padding: 0;
+  margin: 0;
   
+  display: flex;
+  
+  justify-content: space-between;
+  padding: 0 32px 30px;
+
+  gap: 10px;
+}
+.link-icon{
+  
+  fill: #AFB1B8;
+
+}
+.link-icon:hover{
+  fill: #FFFFFF;
+  border-color: #2196f3;
 }
 
 .team {
