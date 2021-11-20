@@ -316,26 +316,52 @@ h2 {
 }
 
 .comand-link{
-  padding: 0;
+  display: flex;
+  padding: 16px 32px 0;
+  justify-content: space-between;
+  gap: 10px;
+
   margin: 0;
   
-  display: flex;
-  
-  justify-content: space-between;
-  padding: 0 32px 30px;
-
-  gap: 10px;
 }
+
+.icon-svg{
+
+  display: inline-block;
+  
+  
+  margin: 0;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  
+}
+
+
 .link-icon{
   
   fill: #AFB1B8;
 
 }
-.link-icon:hover{
-  fill: #FFFFFF;
-  border-color: #2196f3;
+
+
+
+.icon-svg:hover .social-icon,
+.icon-svg:focus .social-icon{
+  fill: var(--background-color);
+  
 }
 
+.icon-svg:hover,
+.icon-svg:focus{
+  background-color: var(--accent-color);
+
+}
 .team {
   margin: 30px 0 0 30px;
   background-color: #ffffff;
@@ -361,7 +387,7 @@ h2 {
   text-align: center;
 }
 
-/* footer */
+/* ---------------------------------footer--------------------------------- */
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -410,6 +436,45 @@ h2 {
 .contact {
   display: block;
 }
+
+
+.footer-social{
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.footer-soc{
+  display: inline-block;
+    
+  margin: 0;
+  
+  width: 44px;
+  height: 44px;
+  
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.link-icon-footer{
+  
+  fill: #ffffff;
+  
+}
+
+.comand-link-footer{
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+  gap: 10px;
+
+  margin: 0;
+  
+}
+
+
+
+
+
 
 /* ----------- button      К Н О П К А -------------- */
 .button {
@@ -572,3 +637,17 @@ h2 {
   fill: #2196f3;
   border-color: #2196f3;
 }
+
+.footer-link{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+
+}
+
+
+
